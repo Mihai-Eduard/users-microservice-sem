@@ -1,27 +1,13 @@
-# Lab Template
+# Users Microservice
 
-This template contains two microservices:
-- authentication-microservice
-- example-microservice
+## General Scenario
 
-The `authentication-microservice` is responsible for registering new users and authenticating current ones. After successful authentication, this microservice will provide a JWT token which can be used to bypass the security on the `example-microservice`. This token contains the *NetID* of the user that authenticated. If your scenario includes different roles, these will have to be added to the authentication-microservice and to the JWT token. To do this, you will have to:
-- Add a concept of roles to the `AppUser`
-- Add the roles to the `UserDetails` in `JwtUserDetailsService`
-- Add the roles as claims to the JWT token in `JwtTokenGenerator`
+We want to develop a social media platform dedicated to book enthusiasts and readers of all kinds, called BookMania. It serves as a virtual library where users can catalog and review the books they've read, as well as discover new titles based on their interests and reading history. The platform allows members to create personalized bookshelves, join discussion groups, and participate in reading challenges. It also provides a space for users to connect with friends, see their recommendations, and follow the authors.
 
-The `example-microservice` is just an example and needs to be modified to suit the domain you are modeling based on your scenario.
+## Technical Specification
 
-The `domain` and `application` packages contain the code for the domain layer and application layer. The code for the framework layer is the root package as *Spring* has some limitations on were certain files are located in terms of autowiring.
+The system should be built in such a way that it can be extended with extra functionalities later (modular) and allow for easy integration with other systems (API). Individual components of the system need to be scalable so that when the demand for that service increases, the service does not get overloaded (microservices). The system should be written in the Java programming language (version 15). The system should not have a graphical user interface (GUI); instead, all interactions with the systems are handled through the APIs. The system must be built with Spring Boot (Spring framework) and Gradle.
 
-## Running the microservices
+## Running the Microservice
 
-You can run the two microservices individually by starting the Spring applications. Then, you can use *Postman* to perform the different requests:
-
-Register:
-![image](instructions/register.png)
-
-Authenticate:
-![image](instructions/authenticate.png)
-
-Hello:
-![image](instructions/hello.png)
+You can run the microservice by starting the Spring applications. Then, you can use *Postman* to perform the different requests.
