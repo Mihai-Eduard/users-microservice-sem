@@ -2,7 +2,7 @@
 
 ## General Scenario
 
-We want to develop a social media platform dedicated to book enthusiasts and readers of all kinds, called BookMania. It serves as a virtual library where users can catalog and review the books they've read, as well as discover new titles based on their interests and reading history. The platform allows members to create personalized bookshelves, join discussion groups, and participate in reading challenges. It also provides a space for users to connect with friends, see their recommendations, and follow the authors.
+We want to develop a social media platform dedicated to book enthusiasts and readers of all kinds, called BookMania. It serves as a virtual library where users can catalog and review the books they have read, as well as discover new titles based on their interests and reading history. The platform allows members to create personalized bookshelves, join discussion groups, and participate in reading challenges. It also provides a space for users to connect with friends, see their recommendations, and follow the authors.
 
 ## Technical Specification
 
