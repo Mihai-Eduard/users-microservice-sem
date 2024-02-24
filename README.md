@@ -10,4 +10,4 @@ The system should be built in such a way that it can be extended with extra func
 
 ## Running the Microservice
 
-You can run the microservice by starting the Spring applications. Then, you can use *Postman* to perform the different requests.
+You can run the microservice by starting the Spring applications. Then, you can use *Postman* to perform different requests.
